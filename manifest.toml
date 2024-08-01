@@ -52,7 +52,7 @@ ram.runtime = "50M"
     [resources.apt]
     extras.recorder.repo = "deb http://repo.owntracks.org/debian __YNH_DEBIAN_VERSION__ main"
     extras.recorder.key = "https://raw.githubusercontent.com/owntracks/recorder/master/etc/repo.owntracks.org.gpg.key"
-    extras.recorder.packages = ["ot-recorder"]
+    extras.recorder.packages = "ot-recorder"
 
     extras.yarn.repo = "deb https://dl.yarnpkg.com/debian/ stable main"
     extras.yarn.key = "https://dl.yarnpkg.com/debian/pubkey.gpg"
